@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://birksqdld6y4"]
+
+[ext_resource type="Script" uid="uid://docxc7q6vc2ph" path="res://src/game/enemy/enemy.gd" id="1_glk8a"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_jcdg0"]
+
+[node name="enemy" type="CharacterBody3D" unique_id=1003753253]
+script = ExtResource("1_glk8a")
+
+[node name="model" type="MeshInstance3D" parent="." unique_id=1638791579]
+unique_name_in_owner = true
+mesh = SubResource("BoxMesh_jcdg0")
